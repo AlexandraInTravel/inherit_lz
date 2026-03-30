@@ -30,9 +30,9 @@ class EBook(Book):
         print('Размер книги:', self.file_size)
         print('Формат книги:', self.format)
     def is_available(self):
-        if self.format=='электронная':
+        if self.format=='электронный':
             print('Есть в наличии')
-        elif self.format == 'бумажная':
+        elif self.format == 'бумажный':
             print('Нет в наличии')
         else:
             print('Неверный формат книги')
